@@ -1,9 +1,7 @@
 from produccion import Produccion
 
 class Cultivo(Produccion):
- 
-    # Representa un cultivo en la granja.
-    # Hereda de la clase Produccion.
+    # Representa un cultivo en la granja y hereda de la clase Produccion.
 
     def __init__(self, nombre, tipo, area_cultivo, rendimiento_por_hectarea):
         super().__init__(nombre)
