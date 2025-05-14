@@ -1,11 +1,9 @@
-# main.py
-
 from granja import Granja
 from cultivo import Cultivo
 from animal import Animal
 from datetime import datetime # Para la fecha en el reporte
 
-# --- Funciones auxiliares para entrada de datos ---
+#Funciones auxiliares para entrada de datos
 def solicitar_dato(mensaje, tipo_dato=str, permitir_vacio_edicion=False):
     """Solicita un dato al usuario, con validación de tipo y opción para permitir vacío en edición."""
     while True:

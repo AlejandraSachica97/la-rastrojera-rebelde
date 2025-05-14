@@ -1,5 +1,3 @@
-# animal.py
-
 from produccion import Produccion
 
 class Animal(Produccion):

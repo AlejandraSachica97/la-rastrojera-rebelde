@@ -1,5 +1,4 @@
-class Produccion: 
-    
+class Produccion:  
    # Clase base
 
     def __init__(self, nombre):
